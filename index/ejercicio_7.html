@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio03 - Asincrona</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estiloGeneral.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+          <li class="logo"><a href="./ejercicio_1.html">EJERCICIO PRINCIPAL</a></li>
+          <li class="logo"><a href="./ejercicio_2.html">EJERCICIO SECUNDARIO</a></li>
+          <li class="logo"><a href="./ejercicio_3.html">TERCER EJERCICIO</a></li>
+          <li class="logo"><a href="./ejercicio_4.html">CUARTO EJERCICIO</a></li>
+          <li class="logo"><a href="./ejercicio_5.html">QUINTO EJERCICIO</a></li>
+          <li class="logo"><a href="./ejercicio_6.html">SEXTO EJERCICIO</a></li>
+          <li class="logo"><a href="./ejercicio_7.html">SEPTIMO EJERCICIO</a></li>
+          <li class="logo"><a href="../index.html">INICIO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class="cuadro_completo">
+            <section><img src="../img/ejercicio7.PNG" alt="imagen_certus" width="600px" height="600px"></section>
+        </article>
+    </main>
+    <script>
+        let dato = parseInt(prompt("Ingresa el primer número: "));
+        let dato1 = parseInt(prompt("Ingresa el segundo número: "));
+
+        let suma = (a, b)=>{
+            let resp = `La suma es: ${a + b} `;
+            return resp;
+        }
+
+        var resultadoSuma = suma(dato, dato1);
+        alert(resultadoSuma);
+    </script>
+</body>
+</html>
